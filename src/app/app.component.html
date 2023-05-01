@@ -1,0 +1,24 @@
+<app-top-bar></app-top-bar>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+<meu-component></meu-component>
+<!-- property binding -->
+<my-button [label]="buttonLabel"></my-button>
+<my-button [label]="'Varei Camará'"></my-button>
+
+<!-- Interpolação -->
+<my-button label="TEXTO"></my-button>
+<my-counter label="{{ buttonLabelSecond }}"></my-counter>
+
+<!-- data binding = associação de dados -->
+
+<!-- two way data binding -->
+<my-entry-data></my-entry-data>
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->
